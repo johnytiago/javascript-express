@@ -1,7 +1,8 @@
-# express-opentracing
+# opentracing-express-middleware
 
 Middleware for [express](http://expressjs.com) to enable [opentracing](https://opentracing.io).
-Supports any opentracing tracer compatible with version 0.11.0 of the opentracing javascript library.
+Supports any opentracing tracer compatible with version 0.14.5 of the opentracing javascript library.
+
 
 ## Install
 ```sh

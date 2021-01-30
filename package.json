@@ -1,7 +1,7 @@
 {
-  "name": "express-opentracing",
+  "name": "opentracing-express-middleware",
   "version": "0.1.1",
-  "description": "opentracing middleware for express-js",
+  "description": "opentracing middleware for express js",
   "main": "dist/index.js",
   "types": "index.d.ts",
   "publishConfig": {
@@ -13,26 +13,19 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/opentracing-contrib/javascript-express.git"
+    "url": "git+https://github.com/johnytiago/javascript-express.git"
   },
   "keywords": [
     "tracing",
     "opentracing",
     "middleware"
   ],
-  "author": "Clever",
-  "contributors": [
-    {
-      "name" : "johnytiago", 
-      "email" : "me@joaotiago.dev",
-      "url" : "https://github.com/johnytiago"
-    }
-  ],
+  "author": "johnytiago",
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/opentracing-contrib/javascript-express/issues"
+    "url": "https://github.com/johnytiago/javascript-express/issues"
   },
-  "homepage": "https://github.com/opentracing-contrib/javascript-express#readme",
+  "homepage": "https://github.com/johnytiago/javascript-express#readme",
   "dependencies": {
     "opentracing": "^0.14.0"
   },
