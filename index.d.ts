@@ -1,4 +1,4 @@
-declare module 'express-opentracing' {
+declare module 'opentracing-express-middleware' {
   import { Tracer } from 'opentracing'
   import { RequestHandler } from 'express'
   export type MiddlewareOptions = {

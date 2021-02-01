@@ -6,7 +6,7 @@ Supports any opentracing tracer compatible with version 0.14.5 of the opentracin
 
 ## Install
 ```sh
-npm install --save express-opentracing
+npm install --save opentracing-express-middleware
 ```
 
 ## Usage
@@ -15,7 +15,7 @@ E.g., using LightStep as your tracer:
 
 ```js
 import * as express from "express";
-import middleware from "express-opentracing";
+import middleware from "opentracing-express-middleware";
 import * as LightStep from "lightstep-tracer";
 
 const lsTracer = new LightStep.Tracer({
